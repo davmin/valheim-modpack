@@ -1,0 +1,16 @@
+{
+    "name": "Davkan Modpack",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/thunderstore-io",
+    "description": "Modpack for Davkan servers",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2202",
+        "ValheimPlus-ValheimPlus-9.9.11",
+        "Crystal-DigDeeper-1.1.5",
+        "CW_Jesse-BetterNetworking_Valheim-2.3.2",
+        "JereKuusela-Ore_Support-1.8.0",
+        "Masa-BetterUI-2.0.2",
+        "1010101110-Multiverse-0.0.6",
+        "Grantapher-ValheimPlus_Grantapher_Temporary-9.12.0"
+    ]
+}
