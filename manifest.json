@@ -1,6 +1,6 @@
 {
     "name": "davkan_modpack",
-    "version_number": "1.2.0",
+    "version_number": "1.3.0",
     "website_url": "https://github.com/thunderstore-io",
     "description": "Modpack for Davkan servers",
     "dependencies": [
