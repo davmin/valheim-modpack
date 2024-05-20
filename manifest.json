@@ -1,14 +1,15 @@
 {
     "name": "davkan_modpack",
-    "version_number": "1.3.0",
+    "version_number": "1.4.0",
     "website_url": "https://github.com/thunderstore-io",
     "description": "Modpack for Davkan servers",
     "dependencies": [
         "denikson-BepInExPack_Valheim-5.4.2202",
         "Crystal-DigDeeper-1.1.5",
         "CW_Jesse-BetterNetworking_Valheim-2.3.2",
-        "JereKuusela-Ore_Support-1.8.0",
+        "JereKuusela-Ore_Support-1.9.0",
         "lunarbin-Cross_Server_Portals-0.2.1",
-        "Grantapher-ValheimPlus_Grantapher_Temporary-9.12.0"
+        "Grantapher-ValheimPlus_Grantapher_Temporary-9.13.0",
+        "1010101110-Multiverse-0.0.6"
     ]
 }
