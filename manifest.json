@@ -1,6 +1,6 @@
 {
     "name": "davkan_modpack",
-    "version_number": "1.6.1",
+    "version_number": "1.6.2",
     "website_url": "https://github.com/davmin/valheim-modpack",
     "description": "Modpack for Davkan servers",
     "dependencies": [
