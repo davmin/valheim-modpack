@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "customDatasources": {
+    "thunderstore": {
+      "format": "json",
+      "transformTemplates": [
+        "{\"releases\": [{\"version\": latest.version_number}]}"
+      ]
+    }
+  },
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["^manifest\\.json$"],
+      "matchStrings": [
+        "\"(?<owner>[A-Za-z0-9_]+)-(?<mod>[A-Za-z0-9_]+)-(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
+      ],
+      "depNameTemplate": "{{owner}}-{{mod}}",
+      "registryUrlTemplate": "https://thunderstore.io/api/experimental/package/{{owner}}/{{mod}}/",
+      "datasourceTemplate": "custom.thunderstore",
+      "versioningTemplate": "semver"
+    }
+  ]
+}
