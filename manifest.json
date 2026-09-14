@@ -1,7 +1,7 @@
 {
     "name": "davkan_modpack",
-    "version_number": "1.5.0",
-    "website_url": "https://github.com/thunderstore-io",
+    "version_number": "1.6.0",
+    "website_url": "https://github.com/davmin/valheim-modpack",
     "description": "Modpack for Davkan servers",
     "dependencies": [
         "denikson-BepInExPack_Valheim-5.4.2350",
