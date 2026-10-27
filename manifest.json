@@ -4,7 +4,7 @@
     "website_url": "https://github.com/davmin/valheim-modpack",
     "description": "Modpack for Davkan servers",
     "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.2350",
+        "denikson-BepInExPack_Valheim-5.4.2351",
         "Crystal-DigDeeper-1.3.1",
         "JereKuusela-Ore_Support-1.12.0",
         "Grantapher-ValheimPlus_Grantapher_Temporary-10.1.2",
